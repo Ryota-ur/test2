@@ -1,1 +1,206 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="over-lay"></div>
+        <div class="menu__container">
+            <aside class="menu__sideBlock">
+                <nav class="menu__sideNav">
+                    <ul class="menu__sideMenu">
+
+                        <a href="#" class="menu__sideMenu--link">
+                            <li class="menu__sideMenu--text">T O P</li>
+                        </a>
+                        <a href="#" class="menu__sideMenu--link">
+                            <li class="menu__sideMenu--text">テキスト</li>
+                        </a>
+                        <a href="#" class="menu__sideMenu--link">
+                            <li class="menu__sideMenu--text">テキスト</li>
+                        </a>
+                        <a href="#" class="menu__sideMenu--link">
+                            <li class="menu__sideMenu--text">テキスト</li>
+                        </a>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main__body">
+                <header class="header">
+                    <button class="drawer-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu--links">
+                                    <p class="header__menu--text">テキスト</p>
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu--links">
+                                    <p class="header__menu--text">テキスト</p>
+                                </a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu--links">
+                                    <p class="header__menu--text">テキスト</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="main__body--inner">
+                    <section class="output__btns">
+                        <div class="output__btns_inner">
+                            <div class="output__btns--wrap">
+                                <button class="output__btn" onclick="location.href='#'">顧客一覧</button>
+                                <button class="output__btn" onclick="location.href='#'">対応一覧</button>
+                                <button class="output__btn" onclick="location.href='#'">出　力</button>
+                            </div>
+                            <div class="pageBack__btn--wrap">
+                                <button class="pageBack__btn" onclick="location.href='#'">戻る</button>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="detail__container">
+                        <div class="detail__data top">
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">管理会社</p>
+                                <input type="text">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">会員氏名</p>
+                                <input type="text">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">サービス開始日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">サービス解約日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">ステータス</p>
+                                <input type="text">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">住所</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <form class="detail__form" action="" method="">
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>フリガナ</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>性別</label></div>
+                                <div class="detail__form--input">
+                                    <div class="detail__form--checkBox">
+                                        <label class="detail__form--checkBox-parts" ><input id="male" type="checkbox" value="男"><span>男</span></label>
+                                        <label class="detail__form--checkBox-parts" ><input id="female" type="checkbox" value="女"><span>女</span></label>
+                                        <label class="detail__form--checkBox-parts"><input id="unknown" type="checkbox" value="不明"><span>不明</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>契約者</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>備考</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>生年月日</label></div>
+                                <div class="detail__form--input"><input type="date"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>入居者名1</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>携帯番号</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>入居者名2</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>email</label></div>
+                                <div class="detail__form--input"><input type="email"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>入居者名3</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>住所</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>入居者名4</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>物件名</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                            <div class="detail__form--row">
+                                <div class="detail__form--label"><label>入居者名5</label></div>
+                                <div class="detail__form--input"><input type="text"></div>
+                            </div>
+                        </form>
+                        <div class="detail__data bottom">
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">受付NO</p>
+                                <input type="text">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">受付日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">手配日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">手配完了日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">訪問予定日</p>
+                                <input type="date">
+                            </div>
+                            <div class="detail__data--input-box">
+                                <p class="detail__data--input-text">完了日</p>
+                                <input type="date">
+                            </div>
+                        </div>
+                        <div class="detail__textarea--wrap">
+                            <div class="detail__textarea--box">
+                                <p class="detail__textarea--text">入電内容</p>
+                                <textarea class="detail__textarea" ></textarea>
+                            </div>
+                            <div class="detail__textarea--box">
+                                <p class="detail__textarea--text">作業内容</p>
+                                <textarea class="detail__textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+<script src="/js/script.js"></script>
+</body>
+</html>
