@@ -1016,6 +1016,7 @@ detail
 @media screen and (max-width: 767px) {
   .detail__form--input [type=date] {
     font-size: 12px;
+    height: 28.6px;
   }
 }
 .detail__form--input [type=date]:focus {
