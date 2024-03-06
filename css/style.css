@@ -683,7 +683,7 @@ th {
 .pagination__prev::after {
   content: "";
   position: absolute;
-  background: url(/img/icon-left@2x.png) no-repeat center center/contain;
+  background: url(../img/icon-left@2x.png) no-repeat center center/contain;
   width: 6px;
   height: 11px;
 }
@@ -726,7 +726,7 @@ th {
 .pagination__next::after {
   content: "";
   position: absolute;
-  background: url(/img/icon-right@2x.png) no-repeat center center/contain;
+  background: url(../img/icon-right@2x.png) no-repeat center center/contain;
   width: 6px;
   height: 11px;
 }
