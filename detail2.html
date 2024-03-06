@@ -1,1 +1,320 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header class="header secondary">
+    <div class="header__inner">
+        <div class="header__btn--wrap">
+            <a href="./menu.html" class="header__btn">顧客一覧</a>
+            <a href="./menu.html" class="header__btn">対応一覧</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <aside class="sideBlock">
+        <div class="sideBlock__inner">
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>顧客ID</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>会員ID</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>フリガナ</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>契約者名</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>性別</label></div>
+                <div class="detail__form--input secondary">
+                    <div class="detail__form--checkBox">
+                        <label class="detail__form--checkBox-parts secondary" ><input id="male" type="checkbox" value="男"><span>男</span></label>
+                        <label class="detail__form--checkBox-parts" ><input id="female" type="checkbox" value="女"><span>女</span></label>
+                        <label class="detail__form--checkBox-parts"><input id="unknown" type="checkbox" value="不明"><span>不明</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>生年月日</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>電話番号</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>携帯番号</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>email</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>郵便番号</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--row thirdly">
+                <div class="detail__form--label secondary"><label>住所</label></div>
+                <div class="detail__form--input secondary"><input type="text"></div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>物件名</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>号室</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>入居者名1</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>連絡先</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>続柄</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>生年月日</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>入居者名2</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>連絡先</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>続柄</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>生年月日</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>入居者名3</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>連絡先</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>続柄</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>生年月日</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>入居者名4</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>連絡先</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>続柄</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>生年月日</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>入居者名5</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>連絡先</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+            <div class="detail__form--wrap">
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>続柄</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+                <div class="detail__form--row secondary">
+                    <div class="detail__form--label secondary"><label>生年月日</label></div>
+                    <div class="detail__form--input secondary"><input type="text"></div>
+                </div>
+            </div>
+    </aside>
+    <main class="body">
+        <div class="body__inner">
+            <div class="detail__data top secondary">
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">管理会社</p>
+                    <input type="text">
+                </div>
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">会員氏名</p>
+                    <input type="text">
+                </div>
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">サービス開始日</p>
+                    <input type="date">
+                </div>
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">サービス解約日</p>
+                    <input type="date">
+                </div>
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">ステータス</p>
+                    <input type="text">
+                </div>
+                <div class="detail__data--input-box">
+                    <p class="detail__data--input-text small">住所</p>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="detail__box">
+                <div class="detail__data thirdly">
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">管理会社</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">会員氏名</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">サービス開始日</p>
+                        <input type="date">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">サービス解約日</p>
+                        <input type="date">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">ステータス</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">住所</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="detail__form--wrap">
+                    <div class="detail__form--row secondary">
+                        <div class="detail__form--label secondary"><label>入電内容</label></div>
+                        <div class="detail__form--input secondary"><input type="text"></div>
+                    </div>
+                    <div class="detail__form--row secondary">
+                        <div class="detail__form--label secondary"><label>対応区分</label></div>
+                        <div class="detail__form--input secondary"><input type="text"></div>
+                    </div>
+                </div>
+                <div class="textarea__wrap">
+                    <textarea class="textarea__wide"></textarea>
+                    <div class="textarea__wrap secondary">
+                        <textarea class="textarea__narrow"></textarea>
+                        <div class="textarea__box">
+                            <p class="textarea__title">作業内容</p>
+                            <textarea class="textarea__semiWide"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail__box">
+                <div class="detail__data thirdly">
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">管理会社</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">会員氏名</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">サービス開始日</p>
+                        <input type="date">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">サービス解約日</p>
+                        <input type="date">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">ステータス</p>
+                        <input type="text">
+                    </div>
+                    <div class="detail__data--input-box secondary">
+                        <p class="detail__data--input-text small">住所</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="detail__form--wrap">
+                    <div class="detail__form--row secondary">
+                        <div class="detail__form--label secondary"><label>入電内容</label></div>
+                        <div class="detail__form--input secondary"><input type="text"></div>
+                    </div>
+                    <div class="detail__form--row secondary">
+                        <div class="detail__form--label secondary"><label>対応区分</label></div>
+                        <div class="detail__form--input secondary"><input type="text"></div>
+                    </div>
+                </div>
+                <div class="textarea__wrap">
+                    <textarea class="textarea__wide"></textarea>
+                    <div class="textarea__wrap secondary">
+                        <textarea class="textarea__narrow"></textarea>
+                        <div class="textarea__box">
+                            <p class="textarea__title">作業内容</p>
+                            <textarea class="textarea__semiWide"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
+
