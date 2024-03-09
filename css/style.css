@@ -1330,6 +1330,9 @@ detail2
   }
 }
 
+.detail__data.top.secondary {
+  margin-top: 2px;
+}
 @media screen and (max-width: 767px) {
   .detail__data.top.secondary {
     margin-top: 20px;
